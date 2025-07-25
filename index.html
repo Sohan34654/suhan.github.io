@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sohanur Rahman Portfolio</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#home {
+  text-align: center;
+  background: #e0e0e0;
+  padding: 50px 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2c3e50;
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+}
+
+.about-list li {
+  margin-bottom: 8px;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.skill-tags li {
+  background: #2980b9;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #2980b9;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 8px 0;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  
+}
+.sohan {
+    font-size: 15px;
+    font-weight: bold;
+    text-align:justify;
+    padding:10px 2px;
+    margin:0 auto;
+}
+
+
+
+
+  </style>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Learnings & Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home">
+    <img src="sohan.34.jpg" alt="Sohanur Rahman" class="profile-img">
+    <h1>Md. Sohanur Rahman</h1>
+    <p>Student, MSE Department - KUET</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <ul class="about-list">
+      <li><strong>Name:</strong> Md. Sohanur Rahman</li>
+      <li><strong>Father's Name:</strong> Md. Kamrul Islam</li>
+      <li><strong>Mother's Name:</strong> Mst. Rohima Khatun</li>
+      <li><strong>Village:</strong> Panti</li>
+      <li><strong>Upazilla:</strong> Kumarkhali</li>
+      <li><strong>Zilla:</strong> Kushtia</li>
+      <li><strong>Nationality:</strong> Bangladeshi</li>
+      <li><strong>Religion:</strong> Islam</li>
+      <li><strong>Date of Birth:</strong> 20/03/2003</li>
+    </ul>
+    <div class="sohan">
+    <p>I am a student of KUET, I want to seek knowledge in Python, HTML, CSS, GitHub. I am passionate about learning new technologies and continuously expanding my skills in areas like Python, CSS, HTML, and embedded systems. Currently studying at KUET, I actively explore various learning platforms such as W3Schools and YouTube tutorials. I believe that learning never stops, and I am always eager to improve my understanding of both frontend and backend development. I started with basic web design using HTML and CSS, then moved into programming languages like Python and C++, and now I'm learning how to work with microcontrollers like ESP32 and Arduino. Through platforms like GitHub, I practice version control and collaborate on small projects. My goal is to gain strong, practical skills that help me build real-world applications and contribute to open-source projects. Learning from different schools and online resources has helped me shape a dynamic, self-driven approach to education and personal growth.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Learnings & Skills</h2>
+    <ul class="skill-tags">
+        <li>C</li>
+         <li>C++</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>GitHub</li>
+      <li>MS-WORD</li>
+       <li>MS-EXCEL</li>
+        <li>MS-POWERPOINT</li>
+    
+      <li>Basic JavaScript</li>
+      <li>Blender(beginner)</li>
+      <li>Adobe Photoshop(beginner)</li>
+        <li>Adobe Illustrator(beginner)</li>
+    </ul>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Exam</th>
+          <th>Institution</th>
+          <th>Year</th>
+          <th>GPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>PSC</td><td>Panti Govt. Primary School</td><td>2015</td><td>5.00</td></tr>
+        <tr><td>JSC</td><td>Panti Secondary School</td><td>2017</td><td>5.00</td></tr>
+        <tr><td>SSC</td><td>Panti Secondary School</td><td>2019</td><td>5.00</td></tr>
+        <tr><td>HSC</td><td>Kushtia Govt. College</td><td>2022</td><td>5.00</td></tr>
+        <tr><td>University</td><td>KUET (MSE Dept.)</td><td>2023–Present</td><td>Ongoing</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p><strong>Email:</strong> <a href="mailto:rahman2127034@stud.kuet.ac.bd">rahman2127034@stud.kuet.ac.bd</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Sohan34654" target="_blank">github.com/Sohan34654</a></p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/16gsytQEfA/" target="_blank">fb.com/sohan</a></p>
+    <p><strong>Mobile:</strong><span>+8801627893179</span></p>
+    <p><strong>Location:</strong> Kushtia, Bangladesh</p>
+  </section>
+</body>
+</html>
